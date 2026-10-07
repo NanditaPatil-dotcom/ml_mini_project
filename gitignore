@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets (e.g. GitHub tokens, Kaggle keys)
+.env
+kaggle.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Colab download bundle (contents are committed separately)
+outputs.zip
+*.zip
+
+# NOTE: dataset/, features/, models/ and results/ are intentionally NOT ignored
